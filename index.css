@@ -20,6 +20,20 @@
 .parrafo {
   font-weight: 500;
 }
+.contenido {
+  background-color: hsl(225, 100%, 98%);
+  display: grid;
+  grid-template-columns: 100px 100px 300px;
+  grid-template-rows: 80px;
+  place-content: center;
+  gap: 10px;
+}
+.icono {
+
+}
+.cambio {
+  margin-left: 30px;
+}
 .item-1 {
   grid-row-start: 1;
   grid-row-end: 2;
@@ -38,10 +52,11 @@
   border-radius: 5px;
   width: 60%;
   height: 30px;
+  margin: 15px 0px 15px 95px;
 }
 .button-secundary {
-  background-color: hsl(225, 100%, 94%);
   border-radius: 5px;
   width: 60%;
   height: 30px;
+  margin: 15px 0px 15px 95px;
 }

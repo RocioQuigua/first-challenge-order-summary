@@ -1,0 +1,47 @@
+.html {
+  font-family: 'Red Hat Display', sans-serif;
+  background-image: url(./images/pattern-background-desktop.svg);
+}
+.contenedor {
+  display: grid;
+  grid-template-columns: 500px;
+  grid-template-rows: 280px 100px 100px;
+  grid-auto-flow: row;
+  place-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  border: 6px solid red;
+}
+.title {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  margin-left: 135px;
+}
+.parrafo {
+  font-weight: 500;
+}
+.item-1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.item-2 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.item-3 {
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+.button-primary {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 5px;
+  width: 60%;
+  height: 30px;
+}
+.button-secundary {
+  background-color: hsl(225, 100%, 94%);
+  border-radius: 5px;
+  width: 60%;
+  height: 30px;
+}

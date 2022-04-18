@@ -1,8 +1,10 @@
 .general {
   font-family: 'Red Hat Display', sans-serif;
   background-image: url(./images/pattern-background-desktop.svg);
+  background-size: contain;
   background-repeat: no-repeat;   
   object-fit: contain;
+  overflow: hidden;
   background-color:  hsl(225, 100%, 94%);
   width: 1440px;
   padding: 0px;
@@ -15,16 +17,16 @@
   grid-template-rows: 100px 100px 100px;
   grid-auto-flow: row;
   place-content: center;
-  margin: 70px 0px 70px 430px;
-  width: 30.6%;
+  margin: 2px 0px 2px 430px;
+  width: 30%;
   border-radius: 15px;
   padding: 0px;
 }
 .imagen {
-  border-radius: 10px 10px 0px 0px;
-  width: 88.2%;
+  border-radius: 12px 12px 0px 0px;
+  width: 86.4%;
   height: 210px;
-  margin-left: 30px;
+  margin-left: 34px;
   position: relative;
 }
 .title {
@@ -33,6 +35,7 @@
   margin-top: 36px;
 }
 .parrafo {
+  font-family: 'Red Hat Display', sans-serif;
   color: hsl(224, 23%, 55%);
   font-size: 14px;
   text-align: center;
@@ -40,37 +43,37 @@
 .contenido {
   background-color: hsl(225, 100%, 98%);
   display: grid;
-  grid-template-columns: 60px 100px 120px;
-  grid-template-rows: 80px;
+  grid-template-columns: 50px 100px 120px;
+  grid-template-rows: 90px;
   place-content: center;
   gap: 10px;
-  border-radius: 10px;
-  width: 60%;
-  margin: 10px 0px 10px 100px;
+  border-radius: 14px;
+  width: 70%;
+  margin: 10px 0px 10px 74px;
 }
 .icono {
-  margin-top: 16px;
-  margin-left: 18px;
+  margin-top: 20px;
 }
 .grupo {
   margin-bottom: 10px;
 }
 .plan {
   font-size: 14px;
+  margin-top: 20px;
   margin-bottom: 10px;
   margin-left: 8px;
 }
 .precio {
   font-size: 13px;
   color: hsl(224, 23%, 55%);
-  margin-top: 0px;
+  margin-top: 5px;
   margin-left: 8px;
 }
 .cambio {
   font-size: 14px;
   color: hsl(245, 75%, 52%);
-  margin-top: 26px;
-  margin-left: 46px;
+  margin-top: 34px;
+  margin-left: 60px;
 }
 .item-1 {
   grid-row-start: 1;
@@ -89,17 +92,19 @@
   background-color: hsl(245, 75%, 52%);
   box-shadow: hsl(225, 100%, 94%) 0px 20px 16px;
   font-size: 12px;
+  font-weight: 800;
   color: white;
   border-radius: 10px;
-  width: 60%;
+  width: 70%;
   height: 42px;
-  margin: 15px 0px 30px 100px;
+  margin: 15px 0px 30px 74px;
   border: none;
 }
 .cancel {
   color: hsl(224, 23%, 55%);
   text-decoration: none;
   font-size: 12px;
+  font-weight: 800;
   margin-left: 210px;
 }
 
@@ -116,13 +121,13 @@
     margin-left: 124px;
   }
   .icono {
-    margin-left: 9px;
+    margin-left: 34px;
   }
-  .plan {
-
+  .grupo {
+    margin-left: 10px;
   } 
-  .precio {
-
+  .cambio {
+    margin-left: 30px;
   }
   .imagen {
     width: 63.4%;

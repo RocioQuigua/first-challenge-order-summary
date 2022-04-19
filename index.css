@@ -75,6 +75,10 @@
   margin-top: 34px;
   margin-left: 60px;
 }
+.cambio:hover {
+  color: hsla(245, 75%, 52%, 0.685);
+  text-decoration: none;
+}
 .item-1 {
   grid-row-start: 1;
   grid-row-end: 5;
@@ -100,12 +104,19 @@
   margin: 15px 0px 30px 74px;
   border: none;
 }
+.button-primary:hover {
+  background-color: hsla(245, 75%, 52%, 0.685);
+  cursor: pointer;
+}
 .cancel {
   color: hsl(224, 23%, 55%);
   text-decoration: none;
   font-size: 12px;
   font-weight: 800;
   margin-left: 210px;
+}
+.cancel:hover {
+  color: hsl(0, 100%, 0%);
 }
 
 @media (max-width: 375px) {

@@ -4,10 +4,9 @@
   background-size: contain;
   background-repeat: no-repeat;   
   object-fit: contain;
-  overflow: hidden;
   background-color:  hsl(225, 100%, 94%);
   width: 1440px;
-  padding: 0px;
+  padding: 10px;
 }
 .contenedor {
   background-color: white;
